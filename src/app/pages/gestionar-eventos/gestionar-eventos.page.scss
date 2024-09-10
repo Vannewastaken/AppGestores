@@ -1,0 +1,49 @@
+.gestion-eventos {
+  --background: #f0f0f0; /* Fondo similar a la primera pantalla */
+}
+
+/* Estilo de las tarjetas de eventos */
+.event-card {
+  background-color: #7D556E; /* Color morado claro */
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Botón de crear evento */
+.boton-crear {
+  /* Azul similar al botón de la primera pantalla */
+  --border-radius: 8px;
+  color: white;
+}
+
+/* Botón de modificar */
+.boton-modificar {
+  /* Amarillo para modificar */
+  --border-radius: 8px;
+  color: white;
+}
+
+/* Botón de eliminar */
+.boton-eliminar {
+ /* Rojo para eliminar */
+  --border-radius: 8px;
+  color: white;
+}
+
+ion-button.style-btn {
+  --background: #866A80;
+  --background-hover: #c49cbb;
+  --background-activated: #c49cbb;
+  --background-focused: #c49cbb;
+  --color: #091e22;
+  --border-radius: 8px; 
+  --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0.25);
+  --padding-top: 10px;
+  --padding-bottom: 10px;
+  --margin-bottom: 11%;
+
+
+}

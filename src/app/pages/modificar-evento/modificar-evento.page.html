@@ -1,0 +1,46 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button
+        defaultHref="/"
+        text="Atras"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Modificar eventos
+    </ion-title>
+
+  </ion-toolbar>
+
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      
+    </ion-card-header>
+
+    <ion-card-content>
+      <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+      <ion-item>
+        <ion-label position="stacked">Nombre evento</ion-label>
+        <ion-input type="text" placeholder="Ingrese Nombre evento" name="name"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Aforo</ion-label>
+        <ion-input type="number" placeholder="Ingrese Aforo" name="aforo"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Fecha</ion-label>
+        <ion-input type="text" placeholder="Ingrese Fecha" name="date"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label position="stacked">Ubicación</ion-label>
+        <ion-input type="text" placeholder="Ingrese Ubicación" name="ubi"></ion-input>
+      </ion-item>
+
+      <ion-button (click)="guardarCambios()" expand="block" class="style-btn-login">Confirmar Cambios</ion-button>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>
